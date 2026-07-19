@@ -1,0 +1,201 @@
+order_id,date,product_category,product_name,quantity,unit_price,total_amount,customer_region,payment_method,is_returned
+ORD-0001,2024-03-12,Electronics,Laptop,5,405.09,2025.45,North,Credit Card,False
+ORD-0002,2024-01-16,Home,Desk Lamp,10,177.44,1774.4,North,WeChat Pay,False
+ORD-0003,2024-11-28,Home,Desk Lamp,9,91.55,823.95,Northwest,Alipay,False
+ORD-0004,2024-03-22,Home,Blender,1,307.14,307.14,Southwest,Alipay,False
+ORD-0005,2024-02-19,Clothing,Jacket,2,36.69,73.38,South,Alipay,False
+ORD-0006,2024-07-12,Electronics,Smartwatch,9,231.0,2079.0,North,Credit Card,False
+ORD-0007,2024-02-05,Home,Blender,10,89.03,890.3,North,Credit Card,False
+ORD-0008,2024-07-13,Food,Coffee Beans,4,69.99,279.96,South,Alipay,False
+ORD-0009,2024-12-09,Food,Chocolate Box,6,31.65,189.9,South,Credit Card,False
+ORD-0010,2024-03-24,Electronics,Headphones,9,1107.23,9965.07,Southwest,Alipay,False
+ORD-0011,2024-01-29,Home,Cushion,6,339.5,2037.0,East,WeChat Pay,False
+ORD-0012,2024-10-17,Books,Biography,2,33.21,66.42,South,WeChat Pay,False
+ORD-0013,2024-05-06,Books,Textbook,3,39.14,117.42,Northwest,Credit Card,False
+ORD-0014,2024-04-22,Home,Vacuum Cleaner,10,168.77,1687.7,East,Credit Card,False
+ORD-0015,2024-12-14,Electronics,Laptop,3,959.8,2879.4,Southwest,Credit Card,True
+ORD-0016,2024-10-10,Books,Textbook,9,37.66,338.94,North,Credit Card,False
+ORD-0017,2024-08-10,Home,Blender,6,57.95,347.7,East,Alipay,True
+ORD-0018,2024-11-16,Food,Chocolate Box,9,73.45,661.05,South,Credit Card,False
+ORD-0019,2024-10-03,Clothing,Jeans,6,157.25,943.5,Northwest,WeChat Pay,False
+ORD-0020,2024-06-06,Books,Novel,2,112.2,224.4,East,WeChat Pay,False
+ORD-0021,2024-02-05,Home,Desk Lamp,2,296.78,593.56,Northwest,WeChat Pay,False
+ORD-0022,2024-11-06,Books,Cookbook,5,68.04,340.2,Southwest,WeChat Pay,False
+ORD-0023,2024-11-28,Clothing,Jacket,7,199.13,1393.91,South,Alipay,False
+ORD-0024,2024-06-22,Books,Novel,4,34.72,138.88,North,Credit Card,False
+ORD-0025,2024-11-19,Home,Cushion,1,42.33,42.33,North,WeChat Pay,True
+ORD-0026,2024-05-22,Electronics,Tablet,2,795.53,1591.06,Southwest,WeChat Pay,False
+ORD-0027,2024-08-30,Home,Cookware Set,8,108.55,868.4,Southwest,WeChat Pay,False
+ORD-0028,2024-01-28,Books,Biography,7,55.22,386.54,North,WeChat Pay,False
+ORD-0029,2024-10-01,Food,Coffee Beans,4,19.37,77.48,Southwest,WeChat Pay,False
+ORD-0030,2024-02-08,Food,Tea Set,4,70.59,282.36,Southwest,Credit Card,False
+ORD-0031,2024-05-01,Home,Desk Lamp,2,371.65,743.3,East,Alipay,False
+ORD-0032,2024-01-02,Clothing,Sneakers,1,49.63,49.63,Southwest,Alipay,False
+ORD-0033,2024-10-11,Books,Biography,7,86.63,606.41,Southwest,WeChat Pay,False
+ORD-0034,2024-02-01,Clothing,T-Shirt,10,152.43,1524.3,South,WeChat Pay,True
+ORD-0035,2024-02-11,Books,Cookbook,1,115.69,115.69,East,WeChat Pay,False
+ORD-0036,2024-10-18,Clothing,Sneakers,2,189.49,378.98,East,Credit Card,False
+ORD-0037,2024-10-16,Home,Desk Lamp,7,268.09,1876.63,Northwest,Alipay,False
+ORD-0038,2024-03-08,Clothing,Jacket,4,67.81,271.24,South,Alipay,False
+ORD-0039,2024-10-15,Electronics,Laptop,8,950.68,7605.44,North,WeChat Pay,False
+ORD-0040,2024-02-05,Home,Blender,3,374.3,1122.9,East,Alipay,False
+ORD-0041,2024-11-30,Books,Biography,10,118.22,1182.2,Northwest,WeChat Pay,False
+ORD-0042,2024-03-09,Home,Blender,2,376.49,752.98,South,WeChat Pay,False
+ORD-0043,2024-04-17,Home,Cushion,5,123.48,617.4,South,WeChat Pay,False
+ORD-0044,2024-01-27,Food,Tea Set,5,72.9,364.5,North,Credit Card,False
+ORD-0045,2024-03-07,Food,Coffee Beans,1,30.02,30.02,South,WeChat Pay,False
+ORD-0046,2024-02-08,Home,Vacuum Cleaner,9,18.72,168.48,East,Credit Card,True
+ORD-0047,2024-06-06,Food,Chocolate Box,7,14.56,101.92,South,WeChat Pay,False
+ORD-0048,2024-10-13,Clothing,Jeans,2,83.66,167.32,Southwest,Credit Card,False
+ORD-0049,2024-01-13,Clothing,Jeans,3,178.65,535.95,East,Credit Card,False
+ORD-0050,2024-12-25,Books,Cookbook,5,27.51,137.55,North,Alipay,False
+ORD-0051,2024-08-23,Books,Cookbook,4,99.82,399.28,South,Alipay,False
+ORD-0052,2024-07-23,Clothing,Jeans,1,138.81,138.81,South,Alipay,False
+ORD-0053,2024-10-01,Food,Olive Oil,9,34.98,314.82,South,WeChat Pay,False
+ORD-0054,2024-05-15,Food,Chocolate Box,10,77.19,771.9,North,WeChat Pay,False
+ORD-0055,2024-09-18,Food,Olive Oil,7,50.47,353.29,North,Alipay,False
+ORD-0056,2024-01-01,Clothing,Jacket,1,147.58,147.58,Northwest,Credit Card,False
+ORD-0057,2024-12-06,Clothing,Jacket,7,32.6,228.2,South,Credit Card,False
+ORD-0058,2024-07-28,Electronics,Tablet,9,498.46,4486.14,South,Alipay,False
+ORD-0059,2024-07-13,Home,Cushion,4,176.87,707.48,East,Credit Card,False
+ORD-0060,2024-08-08,Books,Novel,5,41.56,207.8,Northwest,Credit Card,False
+ORD-0061,2024-09-18,Books,Textbook,8,84.32,674.56,Southwest,Credit Card,False
+ORD-0062,2024-11-13,Electronics,Tablet,9,1012.59,9113.31,South,WeChat Pay,False
+ORD-0063,2024-03-16,Clothing,Jacket,4,165.18,660.72,North,WeChat Pay,False
+ORD-0064,2024-11-18,Books,Novel,8,55.59,444.72,Northwest,WeChat Pay,False
+ORD-0065,2024-12-01,Books,Textbook,7,36.84,257.88,North,WeChat Pay,False
+ORD-0066,2024-10-12,Clothing,Jeans,9,103.62,932.58,East,WeChat Pay,False
+ORD-0067,2024-09-15,Books,Biography,8,77.39,619.12,Southwest,Credit Card,False
+ORD-0068,2024-05-06,Clothing,Sneakers,8,66.65,533.2,South,Credit Card,False
+ORD-0069,2024-05-26,Clothing,Jacket,8,33.95,271.6,East,Alipay,False
+ORD-0070,2024-07-15,Home,Desk Lamp,3,73.07,219.21,East,Credit Card,False
+ORD-0071,2024-07-31,Books,Textbook,6,69.69,418.14,North,WeChat Pay,False
+ORD-0072,2024-01-04,Books,Novel,10,51.84,518.4,South,Alipay,False
+ORD-0073,2024-08-11,Books,Cookbook,8,34.14,273.12,Southwest,WeChat Pay,False
+ORD-0074,2024-11-14,Books,Cookbook,8,111.15,889.2,Northwest,WeChat Pay,False
+ORD-0075,2024-08-07,Home,Cookware Set,1,47.32,47.32,East,Alipay,False
+ORD-0076,2024-06-16,Food,Tea Set,6,20.87,125.22,South,Alipay,False
+ORD-0077,2024-10-03,Books,Biography,2,61.73,123.46,North,Alipay,False
+ORD-0078,2024-04-12,Electronics,Laptop,1,1426.94,1426.94,North,Credit Card,False
+ORD-0079,2024-04-21,Clothing,Sneakers,2,121.51,243.02,Southwest,Credit Card,False
+ORD-0080,2024-02-28,Food,Chocolate Box,10,50.54,505.4,East,Alipay,False
+ORD-0081,2024-07-11,Electronics,Tablet,10,1032.15,10321.5,Southwest,Credit Card,False
+ORD-0082,2024-06-03,Home,Cushion,2,283.42,566.84,Northwest,WeChat Pay,False
+ORD-0083,2024-12-04,Home,Desk Lamp,6,220.11,1320.66,South,WeChat Pay,False
+ORD-0084,2024-02-24,Food,Coffee Beans,7,66.67,466.69,Southwest,Alipay,False
+ORD-0085,2024-09-24,Books,Cookbook,7,29.38,205.66,South,Credit Card,False
+ORD-0086,2024-10-30,Home,Vacuum Cleaner,8,182.7,1461.6,South,Alipay,False
+ORD-0087,2024-08-25,Electronics,Tablet,8,403.6,3228.8,Northwest,Credit Card,False
+ORD-0088,2024-04-03,Food,Coffee Beans,8,68.82,550.56,Southwest,WeChat Pay,False
+ORD-0089,2024-12-25,Food,Olive Oil,5,71.02,355.1,South,Credit Card,True
+ORD-0090,2024-09-07,Clothing,T-Shirt,4,149.61,598.44,Northwest,WeChat Pay,False
+ORD-0091,2024-04-23,Books,Textbook,1,20.24,20.24,Southwest,Credit Card,False
+ORD-0092,2024-06-25,Home,Blender,8,228.09,1824.72,Southwest,Credit Card,False
+ORD-0093,2024-04-28,Food,Tea Set,5,28.0,140.0,North,Credit Card,False
+ORD-0094,2024-09-04,Electronics,Headphones,4,363.76,1455.04,South,Credit Card,False
+ORD-0095,2024-04-09,Home,Cookware Set,5,392.5,1962.5,South,WeChat Pay,False
+ORD-0096,2024-01-24,Food,Coffee Beans,9,14.49,130.41,North,Credit Card,False
+ORD-0097,2024-10-20,Clothing,Sneakers,2,177.09,354.18,South,Alipay,False
+ORD-0098,2024-09-01,Food,Chocolate Box,1,23.94,23.94,North,WeChat Pay,False
+ORD-0099,2024-10-15,Electronics,Laptop,3,266.34,799.02,South,WeChat Pay,False
+ORD-0100,2024-11-12,Electronics,Smartwatch,10,914.38,9143.8,East,Credit Card,False
+ORD-0101,2024-06-05,Books,Biography,10,118.9,1189.0,Northwest,Credit Card,True
+ORD-0102,2024-02-11,Electronics,Headphones,4,433.74,1734.96,East,WeChat Pay,False
+ORD-0103,2024-12-18,Electronics,Headphones,1,642.35,642.35,Northwest,Alipay,False
+ORD-0104,2024-08-20,Clothing,Jacket,5,146.54,732.7,North,Credit Card,False
+ORD-0105,2024-04-25,Food,Chocolate Box,7,13.61,95.27,East,Alipay,False
+ORD-0106,2024-10-31,Electronics,Laptop,3,1199.31,3597.93,Northwest,Alipay,False
+ORD-0107,2024-09-13,Books,Biography,7,113.69,795.83,Northwest,Alipay,False
+ORD-0108,2024-11-05,Home,Desk Lamp,7,297.8,2084.6,South,WeChat Pay,False
+ORD-0109,2024-12-10,Home,Cookware Set,1,399.84,399.84,South,Credit Card,True
+ORD-0110,2024-05-22,Clothing,Sneakers,9,137.27,1235.43,East,Credit Card,False
+ORD-0111,2024-06-19,Books,Novel,8,48.28,386.24,South,Credit Card,False
+ORD-0112,2024-05-27,Clothing,Jacket,7,144.86,1014.02,Southwest,Credit Card,True
+ORD-0113,2024-07-25,Electronics,Tablet,5,518.75,2593.75,Northwest,WeChat Pay,False
+ORD-0114,2024-09-22,Home,Vacuum Cleaner,7,35.87,251.09,South,Credit Card,False
+ORD-0115,2024-03-08,Books,Novel,4,39.38,157.52,South,Alipay,False
+ORD-0116,2024-11-07,Books,Novel,1,117.05,117.05,East,Credit Card,False
+ORD-0117,2024-04-25,Home,Desk Lamp,9,172.08,1548.72,North,Alipay,False
+ORD-0118,2024-05-19,Clothing,Sneakers,5,111.6,558.0,Southwest,Alipay,False
+ORD-0119,2024-04-07,Clothing,Sneakers,9,46.04,414.36,Northwest,Credit Card,False
+ORD-0120,2024-07-31,Clothing,T-Shirt,5,159.08,795.4,South,Credit Card,False
+ORD-0121,2024-10-23,Electronics,Tablet,5,1264.34,6321.7,Southwest,WeChat Pay,False
+ORD-0122,2024-10-05,Books,Biography,6,70.71,424.26,Southwest,Alipay,False
+ORD-0123,2024-07-29,Clothing,Jeans,10,88.93,889.3,North,Alipay,False
+ORD-0124,2024-01-19,Books,Textbook,3,64.49,193.47,East,Credit Card,False
+ORD-0125,2024-08-21,Food,Coffee Beans,8,12.48,99.84,North,Credit Card,False
+ORD-0126,2024-05-15,Clothing,T-Shirt,8,160.67,1285.36,South,Credit Card,False
+ORD-0127,2024-06-11,Electronics,Tablet,9,601.01,5409.09,Southwest,Credit Card,True
+ORD-0128,2024-02-16,Electronics,Headphones,5,1496.27,7481.35,Southwest,WeChat Pay,False
+ORD-0129,2024-01-15,Electronics,Smartwatch,3,1056.3,3168.9,North,Alipay,False
+ORD-0130,2024-05-05,Food,Olive Oil,6,37.3,223.8,Northwest,Alipay,False
+ORD-0131,2024-07-14,Clothing,Jeans,3,34.21,102.63,Northwest,Credit Card,False
+ORD-0132,2024-05-10,Home,Cushion,4,192.54,770.16,Southwest,Alipay,False
+ORD-0133,2024-08-14,Books,Biography,9,27.38,246.42,South,Credit Card,False
+ORD-0134,2024-04-11,Books,Biography,8,102.98,823.84,Southwest,Alipay,False
+ORD-0135,2024-12-24,Books,Biography,10,42.55,425.5,South,WeChat Pay,False
+ORD-0136,2024-12-17,Books,Biography,1,72.25,72.25,North,Credit Card,False
+ORD-0137,2024-04-22,Food,Chocolate Box,10,65.14,651.4,East,Credit Card,False
+ORD-0138,2024-08-13,Clothing,T-Shirt,1,75.61,75.61,North,Credit Card,False
+ORD-0139,2024-07-31,Clothing,T-Shirt,5,78.81,394.05,East,WeChat Pay,False
+ORD-0140,2024-05-19,Home,Blender,9,208.19,1873.71,East,Alipay,False
+ORD-0141,2024-08-27,Books,Biography,6,98.47,590.82,North,WeChat Pay,False
+ORD-0142,2024-07-21,Clothing,Sneakers,9,85.84,772.56,North,Alipay,False
+ORD-0143,2024-11-22,Books,Biography,5,74.3,371.5,South,WeChat Pay,False
+ORD-0144,2024-10-14,Books,Novel,10,107.27,1072.7,South,Credit Card,False
+ORD-0145,2024-02-29,Electronics,Smartwatch,5,991.4,4957.0,East,WeChat Pay,False
+ORD-0146,2024-10-02,Food,Tea Set,2,12.29,24.58,East,Alipay,False
+ORD-0147,2024-03-20,Home,Vacuum Cleaner,10,300.77,3007.7,Southwest,Credit Card,False
+ORD-0148,2024-07-08,Books,Textbook,5,13.6,68.0,East,Alipay,False
+ORD-0149,2024-07-07,Clothing,Jacket,2,196.57,393.14,Northwest,Credit Card,False
+ORD-0150,2024-08-20,Books,Biography,4,116.5,466.0,North,Credit Card,False
+ORD-0151,2024-05-04,Home,Desk Lamp,1,317.92,317.92,East,Credit Card,False
+ORD-0152,2024-04-29,Home,Cushion,10,98.14,981.4,South,WeChat Pay,False
+ORD-0153,2024-03-15,Home,Desk Lamp,5,345.49,1727.45,East,Credit Card,False
+ORD-0154,2024-07-02,Clothing,T-Shirt,1,43.72,43.72,East,Credit Card,False
+ORD-0155,2024-08-03,Clothing,Jacket,1,42.82,42.82,Northwest,WeChat Pay,False
+ORD-0156,2024-02-25,Books,Textbook,6,66.46,398.76,Southwest,Credit Card,False
+ORD-0157,2024-11-25,Home,Desk Lamp,9,131.13,1180.17,North,WeChat Pay,False
+ORD-0158,2024-08-15,Books,Textbook,2,63.93,127.86,North,WeChat Pay,False
+ORD-0159,2024-11-20,Clothing,T-Shirt,3,69.5,208.5,Northwest,Credit Card,False
+ORD-0160,2024-08-08,Books,Biography,8,65.61,524.88,North,Credit Card,False
+ORD-0161,2024-04-26,Home,Cushion,7,188.85,1321.95,Southwest,Alipay,False
+ORD-0162,2024-06-09,Books,Textbook,2,44.38,88.76,South,Alipay,False
+ORD-0163,2024-02-17,Books,Novel,2,101.49,202.98,Southwest,WeChat Pay,False
+ORD-0164,2024-10-14,Food,Chocolate Box,9,9.5,85.5,Northwest,Alipay,False
+ORD-0165,2024-01-27,Books,Biography,7,105.49,738.43,South,Credit Card,False
+ORD-0166,2024-04-24,Electronics,Headphones,3,1002.27,3006.81,North,Alipay,False
+ORD-0167,2024-08-07,Food,Coffee Beans,5,48.06,240.3,Northwest,Credit Card,False
+ORD-0168,2024-12-21,Home,Desk Lamp,10,372.7,3727.0,South,WeChat Pay,False
+ORD-0169,2024-03-14,Food,Olive Oil,6,5.46,32.76,Northwest,Credit Card,False
+ORD-0170,2024-04-20,Clothing,T-Shirt,2,154.3,308.6,Southwest,Alipay,False
+ORD-0171,2024-10-17,Clothing,Jacket,5,149.89,749.45,Northwest,WeChat Pay,False
+ORD-0172,2024-02-11,Clothing,Jeans,10,28.96,289.6,South,Alipay,False
+ORD-0173,2024-09-19,Books,Textbook,7,40.05,280.35,North,Alipay,False
+ORD-0174,2024-01-24,Food,Tea Set,9,55.03,495.27,East,Alipay,False
+ORD-0175,2024-04-18,Electronics,Laptop,4,487.06,1948.24,East,Alipay,False
+ORD-0176,2024-03-30,Electronics,Laptop,8,1133.17,9065.36,East,Alipay,False
+ORD-0177,2024-06-30,Clothing,Dress,9,170.0,1530.0,North,Alipay,False
+ORD-0178,2024-02-09,Electronics,Smartwatch,1,716.64,716.64,South,Credit Card,False
+ORD-0179,2024-01-11,Books,Textbook,5,22.67,113.35,South,WeChat Pay,False
+ORD-0180,2024-02-24,Home,Vacuum Cleaner,6,48.93,293.58,East,Alipay,False
+ORD-0181,2024-06-22,Home,Desk Lamp,7,350.15,2451.05,East,Alipay,False
+ORD-0182,2024-06-27,Electronics,Laptop,9,789.43,7104.87,South,Credit Card,False
+ORD-0183,2024-04-11,Clothing,Jeans,2,46.36,92.72,East,Credit Card,False
+ORD-0184,2024-10-15,Electronics,Headphones,8,722.73,5781.84,Northwest,Alipay,False
+ORD-0185,2024-11-17,Home,Cookware Set,6,347.74,2086.44,South,WeChat Pay,False
+ORD-0186,2024-10-29,Books,Textbook,5,97.6,488.0,North,Alipay,False
+ORD-0187,2024-07-07,Food,Tea Set,8,7.82,62.56,South,WeChat Pay,False
+ORD-0188,2024-01-22,Electronics,Smartwatch,8,891.48,7131.84,Southwest,Credit Card,False
+ORD-0189,2024-02-01,Food,Tea Set,9,16.31,146.79,Southwest,WeChat Pay,False
+ORD-0190,2024-01-21,Food,Coffee Beans,9,53.46,481.14,East,Credit Card,False
+ORD-0191,2024-05-24,Books,Cookbook,6,51.01,306.06,Southwest,Alipay,False
+ORD-0192,2024-02-18,Home,Desk Lamp,6,40.38,242.28,Northwest,Credit Card,False
+ORD-0193,2024-12-05,Food,Chocolate Box,6,11.11,66.66,East,Alipay,False
+ORD-0194,2024-02-13,Books,Cookbook,10,87.97,879.7,South,Credit Card,False
+ORD-0195,2024-12-09,Food,Chocolate Box,9,12.01,108.09,Southwest,Credit Card,False
+ORD-0196,2024-06-23,Food,Olive Oil,3,76.34,229.02,Southwest,WeChat Pay,False
+ORD-0197,2024-02-21,Clothing,Jeans,2,73.24,146.48,Northwest,Credit Card,False
+ORD-0198,2024-11-12,Home,Desk Lamp,6,352.41,2114.46,East,Credit Card,False
+ORD-0199,2024-03-25,Clothing,Jeans,10,165.63,1656.3,Southwest,WeChat Pay,False
+ORD-0200,2024-08-17,Clothing,Sneakers,10,71.29,712.9,East,Credit Card,False
