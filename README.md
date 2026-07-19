@@ -51,6 +51,23 @@ python agent.py
   - *"Show me orders over 1000 that were returned."*
 - Type `quit` or `exit` to leave. Charts are saved in `./outputs/`.
 
+## Web Interface
+
+Run the Streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+Open http://localhost:8501 in your browser. Upload a CSV or use the built-in sample data, then ask questions in natural language.
+
+### Features
+- Drag-and-drop CSV upload
+- Real-time tool call visibility (expandable panels)
+- Inline chart display with download option
+- Full conversation history
+- Dark theme
+
 ## Using your own CSV
 
 Any CSV works. Columns whose names contain `date` or `time` are auto-parsed as datetimes. Just run `python agent.py` and enter the path.
@@ -59,11 +76,14 @@ Any CSV works. Columns whose names contain `date` or `time` are auto-parsed as d
 
 ```
 data_analysis_agent/
-├── agent.py                  # Main entry point, agent loop
+├── agent.py                  # CLI entry point (terminal rendering)
+├── app.py                    # Streamlit web app entry point
+├── agent_core.py             # Shared agent loop (used by CLI and web app)
 ├── tools.py                  # Tool implementations (pandas)
 ├── tool_schemas.py           # Anthropic API tool schemas
 ├── display.py                # Rich terminal display helpers
 ├── generate_sample_data.py   # Sample dataset generator
+├── .streamlit/config.toml    # Streamlit theme (dark) + upload limit
 ├── requirements.txt
 ├── sample_data.csv           # 200 rows of e-commerce sales data
 └── outputs/                  # Generated charts (auto-created)

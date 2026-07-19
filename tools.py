@@ -27,8 +27,12 @@ _filepath: str | None = None
 
 def load_dataframe(filepath: str) -> pd.DataFrame:
     """Load a CSV into module state and return it."""
+    return set_dataframe(pd.read_csv(filepath), filepath)
+
+
+def set_dataframe(df: pd.DataFrame, source: str = "<in-memory>") -> pd.DataFrame:
+    """Install an already-loaded DataFrame as the active dataset."""
     global _df, _filepath
-    df = pd.read_csv(filepath)
     # Best-effort datetime parsing for object columns that look like dates
     for col in df.columns:
         is_texty = df[col].dtype == object or pd.api.types.is_string_dtype(df[col])
@@ -38,7 +42,7 @@ def load_dataframe(filepath: str) -> pd.DataFrame:
             except (ValueError, TypeError):
                 pass
     _df = df
-    _filepath = filepath
+    _filepath = source
     return df
 
 
