@@ -17,7 +17,7 @@ import pandas as pd
 import streamlit as st
 
 import tools
-from agent_core import INITIAL_PROMPT, DataAnalysisAgent
+from agent_core import INITIAL_PROMPT, DataAnalysisAgent, resolve_api_key
 from display import TABLE_END_MARKER, TABLE_MARKER
 
 SAMPLE_DATA = "sample_data.csv"
@@ -54,8 +54,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-if not os.environ.get("ANTHROPIC_API_KEY"):
-    st.error("Please set ANTHROPIC_API_KEY environment variable")
+if not resolve_api_key():
+    st.error(
+        "Please set ANTHROPIC_API_KEY — add it to Streamlit secrets "
+        "(Settings → Secrets on Streamlit Cloud, or .streamlit/secrets.toml "
+        "locally) or as an environment variable."
+    )
     st.stop()
 
 # ---------------------------------------------------------------- state

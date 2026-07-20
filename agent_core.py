@@ -6,6 +6,7 @@ UI-agnostic events so each frontend can render progress in its own way.
 
 from __future__ import annotations
 
+import os
 from typing import Any, Generator
 
 import anthropic
@@ -50,6 +51,25 @@ Event = tuple[str, Any]
 CHART_MARKER = "Chart saved: "
 
 
+def resolve_api_key() -> str | None:
+    """Resolve the Anthropic API key.
+
+    Checks st.secrets first (Streamlit Cloud's secrets manager), then falls
+    back to the ANTHROPIC_API_KEY environment variable. Streamlit is an
+    optional dependency here — this works unchanged when only the CLI
+    (agent.py) is installed and st.secrets isn't available.
+    """
+    try:
+        import streamlit as st
+
+        key = st.secrets.get("ANTHROPIC_API_KEY")
+        if key:
+            return key
+    except Exception:
+        pass
+    return os.environ.get("ANTHROPIC_API_KEY")
+
+
 def execute_tool(name: str, tool_input: dict) -> tuple[str, bool]:
     """Run a tool function; return (result_text, is_error)."""
     func = tools.TOOL_FUNCTIONS.get(name)
@@ -75,7 +95,7 @@ class DataAnalysisAgent:
         self.df = df
         self.source_name = source_name
         self.messages: list = []
-        self.client = anthropic.Anthropic()
+        self.client = anthropic.Anthropic(api_key=resolve_api_key())
         tools.set_dataframe(df, source_name)
 
     def run_turn(self, user_message: str) -> Generator[Event, None, None]:
